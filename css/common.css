@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+body {
+    cursor: url('../img/cursor.cur') 20 30, auto;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'pretendard', sans-serif;
+    overflow-x: hidden;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.inner {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+#main #mv {
+    min-height: 110vh;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+#header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#header .inner {
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    background: rgba(74, 74, 74, 0.5);
+    backdrop-filter: blur(5px);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#header .inner h1 img {
+    width: 55%;
+    display: block
+}
+
+#fullpage {
+    color: #fff;
+}
+
+#section1 {
+    background: url('../img/goran-ivos-idmvPhF8t4E-unsplash.png') center top no-repeat;
+}
+
+#section1 .inner h2 {
+    position: absolute;
+    font-weight: 700;
+    top: 45%;
+    left: 10%;
+    font-size: 6.0rem;
+    line-height: 100%;
+}
+
+#section1 .inner h3 {
+    font-weight: 400;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+
+#section2 .inner {
+    color: #000;
+
+}
+
+#section2 .inner .self_img {
+    width: 25%;
+    position: absolute;
+    top: 18%;
+    right: 15%;
+}
+
+#section2 .inner .self_img img {
+    width: 100%;
+}
+
+#section2 .inner h4 {
+    font-weight: 700;
+    font-size: 5.0rem;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+
+}
+
+#section2 .inner h5 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    color: #666
+}
+
+#section2 .inner .introduce {
+    position: absolute;
+    left: 20%;
+    top: 33%;
+}
+
+
+
+#section2 .inner .introduce span {
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+
+#section2 .inner .introduce .selfintro {
+    position: absolute;
+    bottom: -45%;
+    color: #fff;
+    font-family: 'InkLipquid', sans-serif;
+    font-size: 2.2rem;
+}
+
+#section2 canvas {
+    width: 100%;
+    height: 30vh;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+}
+
+
+
+#section3 {
+    background: #000;
+    z-index: -11;
+}
+
+#section3 canvas {
+    background: #fff;
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+#section3 .inner {
+    position: relative;
+    width: 100%;
+}
+
+#section3 .inner .title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5.0rem;
+    top: 20%;
+    left: 48%;
+    color: #000
+}
+
+
+#section3 .inner .swiper-wrapper .swiper-slide {
+    position: relative;
+    top: 20%;
+    height: 100vh;
+}
+
+
+#section3 .inner .swiper-slide .swiper_img {
+    display: flex;
+    width: 40%;
+    height: 60vh;
+    gap: 5%;
+    position: absolute;
+    top: 25%
+}
+
+
+#section3 .inner .swiper-slide .swiper_img img {
+    width: 50%;
+}
+
+#section3 .inner .swiper-slide .swiper_introduce {
+    position: absolute;
+    top: 75%;
+    color: #000;
+    left: 48%;
+}
+
+#section4 {
+    background: #000;
+    position: relative
+}
+
+#section4 .inner {
+    text-align: center;
+}
+
+#section4 .inner .title4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section4 .inner .title4 h3 {
+    font-size: 5.0rem
+}
+
+#section4 .inner .title4 p {
+    font-weight: 300;
+}
+
+#section4 .inner .address {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+
+
+#section4 .inner .address span {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#section4 .inner .copy {
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 70vw;
+    border-top: 1px #fff solid;
+    padding-top: 100px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#section4 .inner .logo {
+    width: 8%;
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#section4 .inner .logo img {
+    width: 100%;
+}
